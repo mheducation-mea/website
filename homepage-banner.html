@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Banner</title>
+
+    <style>
+        body{
+            padding:0;
+            margin:0;
+        }
+    </style>
+
+    <style>
+        #banner{
+            background-color:#0D2458;
+            width:100%;
+            color:white;
+        }
+        #banner h1{
+            font-size:70px;
+            font-family: ProximaNova-ExtraBold,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+            line-height:75px;
+        }
+        #banner h2{
+            font-family: ProximaNova-Light,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+            font-size:34px;
+            line-height:40px;
+        }
+        .banner-text{
+            display:flex;
+            flex-direction: column;
+            flex:2;
+            padding:0 50px 0 0;
+            /* background-color: yellow; */
+        }
+        .banner-text h1, .banner-text h2{
+            flex:1;
+            /* background:green; */
+        }
+        .banner-img{
+            flex:1;
+            z-index: 1;
+            /* background-color: darkorange; */
+        }
+        .container{
+            display:flex;
+            align-items: center;
+
+            /* background-color: magenta; */
+        }
+        #bannerContainer{
+            position:relative;
+        }
+        img#arrow{
+            position:absolute;
+            bottom:0;
+            left:0;
+            z-index: 0;
+            width:86%;
+        }
+    </style>
+
+    <style>
+        #blog-item{
+
+        }
+        #blog-item h3{
+            font-family: ProximaNova-SemiBold,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+            font-size:16px;
+            color:#E21A23;
+            text-transform: uppercase;
+            padding:0;
+            margin:0 0 5px 0;
+        }
+        #blog-item h2{
+            font-family: ProximaNova-Bold,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+            font-size:34px;
+            padding:0;
+            margin:0;
+        }
+    </style>
+
+    <style>
+        .blog-img{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: aqua;
+        }
+        .blog-img img{
+            width:80%;
+        }
+    </style>
+
+
+</head>
+<body>
+
+</body>
+</html>
+
+<div id="bannerContainer" data-content-type="row" data-appearance="full-width" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="main">
+    <img id="arrow" src="https://mheducation-mea.github.io/website/banner-arrow.svg" alt="">
+    <div class="row-full-width-inner" data-element="inner">
+        <div data-content-type="text" data-appearance="default" data-element="main">
+            <div id="banner">
+                <div class="container">
+                    <div class="banner-text">
+                        <h1>Discover new paths to learning</h1>
+                        <h2>Every learning path is unique. Find yours, with us.</h2>
+                    </div>
+                    <div class="banner-img">
+                        <img src="https://www.mheducation.me/media/wysiwyg/banner-home.png" alt="Homepage Banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="blog-item">
+    <h3>McGraw Hill Insights</h3>
+    <h2>What does ChatGPT mean for the future of education?</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation </p>
+    <button class="btn btn-primary">
+    Read Article
+    </button>
+</div>
+
+
+<div class="blog-img">
+    <img src="https://mheducation-mea.github.io/website/blog-img-chatgpt.svg" alt="Chat GPT Illustration">
+</div>
+
+
+
+<div class="blog-img">
+    <img src="https://mheducation-mea.github.io/website/blog-img-ar-report.svg" alt="Chat GPT Illustration">
+</div>
