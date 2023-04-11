@@ -3,7 +3,7 @@ var animation = bodymovin.loadAnimation({
     renderer: 'svg',
     loop: false,
     autoplay: true,
-    path: 'arrow3.json'
+    path: 'http://mheducation-mea.github.io/website/arrow3.json'
   })
 
 
@@ -12,5 +12,5 @@ var animation = bodymovin.loadAnimation({
     renderer: 'svg',
     loop: false,
     autoplay: true,
-    path: 'arrow-mobile2.json'
+    path: 'http://mheducation-mea.github.io/website/arrow-mobile2.json'
   })
