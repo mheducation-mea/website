@@ -1,5 +1,3 @@
-<script>
-
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('bm'),
     renderer: 'svg',
@@ -16,5 +14,3 @@ var animation = bodymovin.loadAnimation({
     autoplay: true,
     path: 'http://mheducation-mea.github.io/website/arrow-mobile2.json'
   })
-
-</script>
