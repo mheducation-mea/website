@@ -1,16 +1,7 @@
-var animation = bodymovin.loadAnimation({
-    container: document.getElementById('bm'),
-    renderer: 'svg',
-    loop: false,
-    autoplay: true,
-    path: 'http://mheducation-mea.github.io/website/arrow3.json'
-  })
+define([
+    "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"
+], function (lottie) {
+    'use strict';
 
-
-  var animation = bodymovin.loadAnimation({
-    container: document.getElementById('bm-mobi'),
-    renderer: 'svg',
-    loop: false,
-    autoplay: true,
-    path: 'http://mheducation-mea.github.io/website/arrow-mobile2.json'
-  })
+    alert("lottie loaded");
+});
