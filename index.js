@@ -4,7 +4,7 @@
       renderer: 'svg',
       loop: false,
       autoplay: true,
-      path: 'arrow3.json'
+      path: 'https://mheducation-mea.github.io/website/arrow3.json'
     })
   
   
@@ -13,6 +13,6 @@
       renderer: 'svg',
       loop: false,
       autoplay: true,
-      path: 'arrow-mobile2.json'
+      path: 'https://mheducation-mea.github.io/website/arrow-mobile2.json'
     })
   });
