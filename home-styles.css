@@ -1,0 +1,1179 @@
+/* -------------------------------------- */
+/* Theme CSS Customizations */
+/* -------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: -0.01em !important;
+}
+
+.footer {
+    background-color: #333333 !important;
+}
+
+.footer-nav ul li {
+    padding: 0 0 5px 0 !important;
+}
+
+.footer-nav h3 {
+    font-family: ProximaNova-Bold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+}
+
+.footer-social-links-container {
+    display: none !important;
+}
+
+ul.mhe-nav__list li a {
+    font-family: ProximaNova-Bold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #333333 !important;
+}
+
+.current-country-wrapper {
+    display: none !important;
+}
+
+.panel {
+    display: none !important;
+}
+
+aside#current-country-wrapper {
+    display: none !important;
+}
+
+.logo {
+    margin: 0 !important;
+}
+
+.header {
+    margin: 40px auto auto auto !important;
+}
+
+/* -------------------------------------- */
+/* Universal Classes */
+/* -------------------------------------- */
+
+.row-wrapper {
+    /* padding:80px 0 80px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-container {
+    flex: 100%;
+    max-width: 1180px;
+}
+
+/* -------------------------------------- */
+/* Styling for Hero Image */
+/* -------------------------------------- */
+
+#banner {
+    /* background-color:#0D2458; */
+    width: 100%;
+    color: white;
+}
+
+#banner h1 {
+    font-size: 70px;
+    font-family: ProximaNova-ExtraBold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    line-height: 75px;
+}
+
+#banner h2 {
+    font-family: ProximaNova-Light, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.banner-text {
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* flex:2; */
+    /* padding:0 50px 0 0; */
+    width: 600px;
+    /* background-color: yellow; */
+    display: none;
+}
+
+.banner-text h1,
+.banner-text h2 {
+    flex: 1;
+    /* background:green; */
+}
+
+.banner-img {
+    flex: 1;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    right: 0;
+    /* background-color: darkorange; */
+}
+
+.banner-inner {
+    display: flex;
+    align-items: center;
+
+    /* background-color: magenta; */
+}
+
+#bannerContainer {
+    /* background-color: #0D2458; */
+    background: rgb(6, 35, 91);
+    background: linear-gradient(172deg, rgba(6, 35, 91, 1) 0%, rgba(6, 35, 91, 1) 28%, rgba(76, 106, 181, 1) 100%);
+    position: relative;
+    min-height: 584px;
+}
+
+#bannerContainerInner {
+    position: relative;
+}
+
+img#arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 86%;
+    display: none !important;
+}
+
+svg#banner-arrow-svg {
+    /* background:green; */
+    position: absolute;
+    height: 95%;
+    bottom: 0;
+    left: 0;
+}
+
+.arrow01,
+.arrow02,
+.line01,
+.line02 {
+    display: none;
+}
+
+/* -------------------------------------- */
+/* Main Options and Drop Down */
+/* -------------------------------------- */
+
+#main-options-wrapper {
+    /* margin:0 !important; */
+    padding: 80px 0 80px 0;
+    background: #E2E2E2;
+}
+
+#main-options {
+    /* display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; */
+    width: 100%;
+    /* background-color: brown; */
+}
+
+#main-options-container {
+    /* margin:50px auto 80px auto; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-width:1180px; */
+}
+
+#opener-titles {
+    margin: auto auto 30px auto;
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#opener-titles h1 {
+    flex: 1;
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#opener-titles h2 {
+    flex: 1;
+    font-family: ProximaNova-Light, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* background-color:aqua; */
+    width: 80%;
+}
+
+#school {
+    /* flex:1; */
+    width: 580px;
+    /* height: 420px; */
+    /* background-color: #E21A23; */
+    /* margin:auto 10px auto auto; */
+    position: relative;
+    /* z-index: 0; */
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#school:hover,
+#highered:hover {
+    opacity: 0.9;
+}
+
+#school img {
+    width: 100%;
+    /* position:absolute; */
+    /* z-index: -1; */
+    padding: 0;
+    margin: 0;
+}
+
+#highered {
+    /* flex:1; */
+    width: 580px;
+    /* height: 420px; */
+    /* margin:auto auto auto 10px; */
+    /* background-color: aquamarine; */
+    position: relative;
+    /* z-index: 0; */
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#highered img {
+    width: 100%;
+    /* position:absolute; */
+    /* z-index: -1; */
+    padding: 0;
+    margin: 0;
+}
+
+.main-options-content {
+    position: absolute;
+    background-color: white;
+    bottom: 50px;
+    width: 400px;
+    /* padding:20px; */
+    /* z-index: 1; */
+    /* display:flex;
+flex-direction: column; */
+}
+
+.main-options-content-wrapper {
+    position: relative;
+    /* background-color: cornflowerblue; */
+}
+
+.main-options-content h1 {
+    font-family: ProximaNova-ExtraBold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 26px;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    /* flex:1; */
+    /* background-color: aquamarine; */
+}
+
+.main-options-content p {
+    font-size: inherit;
+    line-height: inherit;
+    font-family: ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    /* flex:1; */
+    /* background-color: magenta; */
+    padding: 5px 20px 40px 20px;
+    margin: 0;
+}
+
+.main-options-content .grey-arrow {
+    margin: 0;
+    padding: 0;
+    /* background-color:mediumslateblue; */
+    height: 30px;
+    /* flex:1; */
+    /* text-align: right; */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 5px;
+    right: 15px;
+    z-index: 2;
+}
+
+.grey-arrow img {
+    /* display:inline-block; */
+    /* width:100%; */
+    width: 100%;
+    /* background-color: sienna; */
+    /* float:right; */
+}
+
+#highered-popout {
+    width: 100%;
+    background-color: #440B7F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#fold-arrow {
+    height: 30px;
+    /* background-color:#E21A23;j */
+    position: absolute;
+    top: -30px;
+    right: 100px;
+    display: hidden;
+}
+
+#popout-wrapper img.back-btn {
+    fill: white;
+    transform: scaleX(-1);
+    height: 10px;
+    margin-right: 10px;
+}
+
+#popout-wrapper {
+    font-family: ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    max-width: 1180px;
+    /* background-color: aqua; */
+    padding: 30px;
+    color: white;
+    position: relative;
+}
+
+#popout-wrapper h1 {
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 34px;
+    line-height: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#popout-wrapper a#backbtn-wrapper {
+    text-decoration: none;
+    color: white;
+}
+
+ul#popout-products li img {
+    height: 30px;
+}
+
+ul#popout-products li h3 {
+    padding: 0;
+    margin: 0;
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+}
+
+h3.back-btn {
+    font-size: 12px;
+}
+
+ul#popout-products,
+ul#popout-books {
+    padding: 0;
+    margin: 40px 0 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+ul#popout-products li,
+ul#popout-books li {
+    list-style: none;
+    /* color:red; */
+    flex: calc(100%/3 - 60px);
+    /* background-color: antiquewhite; */
+    margin: 0 30px 30px 0;
+    padding: 5px;
+    color: white;
+    display: flex;
+}
+
+ul#popout-products li a,
+ul#popout-books li a {
+    text-decoration: none;
+    color: white;
+    flex: 100%;
+}
+
+ul#popout-products li a:hover,
+ul#popout-books li a:hover {
+    text-decoration: underline;
+}
+
+ul#popout-products li p,
+ul#popout-books li p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+ul#popout-products :nth-child(3n),
+ul#popout-books :nth-child(3n) {
+    margin-right: 0;
+}
+
+ul#popout-books {
+    width: 100%;
+}
+
+ul#popout-books li {
+    /* background-color: #E21A23; */
+    padding: 0;
+    margin: 0;
+}
+
+#backbtn-wrapper {
+    position: relative;
+    /* background-color:hotpink; */
+}
+
+#backbtn-wrapper h3.back-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+}
+
+#backbtn-wrapper h3.back-btn:hover {
+    text-decoration: underline;
+}
+
+#backbtn-wrapper img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(241deg) brightness(105%) contrast(101%);
+}
+
+object#test-btn {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(241deg) brightness(105%) contrast(101%);
+}
+
+ul#popout-books li {
+    margin: auto auto 10px auto;
+}
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+/* -------------------------------------- */
+/* Styling for Blog Secion */
+/* -------------------------------------- */
+
+#blog-section {
+    /* background-color: #440B7F; */
+    padding: 80px 0 80px 0;
+}
+
+.blog-wrapper {}
+
+.blog-container {
+    padding: 0 0 0 0;
+    /* background-color:#E21A23; */
+    display: flex;
+}
+
+.blog-item-after {
+    flex: 1.2;
+    /* background-color: #440B7F; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.blog-item-before {
+    flex: 1.2;
+    /* background-color: #440B7F; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.blog-item-contents {
+    flex: 1;
+}
+
+.blog-img-before {
+    flex: 1;
+    /* background-color: pink; */
+}
+
+.blog-img-before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.blog-img-before img {
+    width: 100%;
+}
+
+.blog-item-after h3,
+.blog-item-before h3 {
+    font-family: ProximaNova-SemiBold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 16px;
+    color: #E21A23;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.blog-item-after h2,
+.blog-item-before h2 {
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------------------- */
+/* Styling for Case Study */
+/* -------------------------------------- */
+
+#case-study {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 80px 0;
+}
+
+#casestudy-titles {
+    margin: auto auto 30px auto;
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#case-study h3 {
+    flex: 1;
+    font-family: ProximaNova-SemiBold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 16px;
+    color: #E21A23;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+#case-study h2 {
+    flex: 1;
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 70%;
+    /* background-color:lightsalmon; */
+}
+
+#case-study p {
+    flex: 1;
+    width: 70%;
+    text-align: center;
+}
+
+/* -------------------------------------- */
+/* Styling for Upcoming Events */
+/* -------------------------------------- */
+
+#upcoming-events-wrapper {
+    background-color: #e3e3e3;
+    padding: 80px 0 80px 0;
+}
+
+#upcoming-events-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 50px auto;
+}
+
+#upcoming-events-title h1 {
+    flex: 1;
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 42px;
+    line-height: 46px;
+    color: black;
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-align: center;
+    letter-spacing: -.01em;
+}
+
+#upcoming-events-title h2 {
+    flex: 1;
+    font-family: ProximaNova-Light, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+    /* background-color:lightsalmon; */
+}
+
+ul.upcoming-events {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul.upcoming-events li.upcoming-event {
+    margin: 0 20px 0 0;
+    /* padding:0 0 30px 0; */
+    position: relative;
+    flex: 1;
+    background-color: white;
+}
+
+ul.upcoming-events li:nth-last-child() {
+    margin: 0 !important;
+}
+
+.upcoming-event h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: ProximaNova-SemiBold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 16px;
+    /* position:absolute; */
+    width: 150px;
+    height: 40px;
+    background: #E21A23;
+    left: 0;
+    top: 0;
+    color: white;
+    font-family: 'proxima_novabold', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.upcoming-event h1 {
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 0;
+}
+
+.upcoming-event h2 {
+    font-size: 20px;
+    margin: 10px auto 10px auto;
+    font-weight: 100;
+}
+
+.upcoming-event p {
+    /* background-color: #E21A23; */
+}
+
+.upcoming-event img {
+    position: absolute;
+    /* background:yellow; */
+    right: 0;
+    bottom: 0;
+    margin: 0 20px 20px 0;
+    width: 10px;
+    height: 30px;
+}
+
+.webinar-details {
+    padding: 20px 20px 50px 20px;
+}
+
+.upcoming-event a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    min-height: 100%;
+}
+
+.upcoming-event a:hover {
+    background-color: #FFE7E7;
+    /* color:white !important; */
+}
+
+/* -------------------------------------- */
+/* Mobile Styling */
+/* -------------------------------------- */
+
+/*For mobile*/
+@media only screen and (max-width: 600px) {
+    .pagebuilder-column-line {
+        padding: 20px !important;
+        /*background-color:green;*/
+    }
+
+    #home-contact {
+        flex-direction: column;
+
+    }
+
+    .contact-right {
+        background-color: #0D2458 !important;
+        padding-bottom: 60px !important;
+    }
+
+    .contact-right-content {
+        padding: 0 !important;
+        margin: 0 20px 0 20px !important;
+        width: calc(100% - 40px) !important;
+        /* background-color: green; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-left-content {
+        padding: 60px 20px 0 20px;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .contact-left-content h1,
+    .contact-left-content h2 {
+        font-size: 50px !important;
+        line-height: 54px !important;
+        text-align: left !important;
+    }
+
+    .contact-left-content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .contact-right-content input {
+        /* background-color: #E21A23 !important; */
+        height: 70px !important;
+        color: #808080 !important;
+    }
+
+    .mktoForm {
+        padding: 0 !important;
+    }
+
+    /* Upcoming Events */
+    ul.upcoming-events {
+        flex-direction: column;
+    }
+
+    ul.upcoming-events li.upcoming-event {
+        margin: 0 0 20px 0 !important;
+    }
+
+    ul.upcoming-events li.upcoming-event:nth-last-child() {
+        margin: 0 !important;
+    }
+
+    #upcoming-events-wrapper {
+        padding: 50px 20px 50px 20px !important;
+    }
+
+    #upcoming-events-container {
+        width: 100%;
+    }
+
+    #upcoming-events-title h1 {
+        font-size: 34px !important;
+        line-height: 40px !important;
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    #upcoming-events-title h2 {
+        text-align: left !important;
+        font-size: 24px !important;
+        line-height: 30px !important;
+        width: 100% !important;
+    }
+
+    .webinar-details p {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    #case-study {
+        width: 100% !important;
+        /* background-color: #E21A23 !important; */
+        padding: 20px !important;
+        margin: 0 !important;
+        align-items: flex-start !important;
+        justify-content: left !important;
+    }
+
+    #casestudy-titles {
+        /* background-color:cyan; */
+        padding: 0 !important;
+        margin: 0 !important;
+        align-items: flex-start !important;
+        justify-content: left !important;
+    }
+
+    #casestudy-titles h2 {
+        font-size: 34px !important;
+        line-height: 40px !important;
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    #casestudy-titles h3 {
+        text-align: left !important;
+        /* background-color: yellow; */
+    }
+
+    #casestudy-titles p {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        text-align: left;
+        width: 100% !important;
+        margin: 20px 0 20px 0 !important;
+    }
+
+    #blog-section {
+        padding: 30px 20px 20px 20px !important;
+    }
+
+    .blog-container {
+        flex-direction: column !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .blog-item-after,
+    .blog-item-before {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .blog-item-contents h2 {
+        font-size: 34px !important;
+        line-height: 40px !important;
+
+    }
+
+    .reverse {
+        flex-direction: column-reverse !important;
+    }
+
+    .blog-img-before,
+    .blog-item-after {
+        margin: 20px 0 20px 0 !important;
+    }
+
+    .blog-img-before img,
+    .blog-item-after img {
+        width: 100% !important;
+    }
+
+    #main-options-wrapper {
+        padding: 40px 20px 20px 20px !important;
+    }
+
+    #main-options-container {
+        flex-direction: column;
+        /* background-color: #E21A23; */
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .main-options-content {
+        position: relative !important;
+        width: 100% !important;
+        bottom: 0 !important;
+    }
+
+    .main-options-content-wrapper p {
+        font-size: 16px !important;
+        line-height: 20px !important;
+        /* color: yellow; */
+    }
+
+    #opener-titles h1 {
+        width: 100% !important;
+        font-size: 34px !important;
+        line-height: 40px !important;
+        text-align: left !important;
+    }
+
+    #opener-titles h2 {
+        width: 100% !important;
+        margin-top: 5px !important;
+        text-align: left !important;
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+
+    #school,
+    #highered {
+        /* margin:0 0 40px 0; */
+        width: 100% !important;
+    }
+
+    #school {
+        margin-bottom: 20px;
+    }
+
+    #highered {
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    img#arrow {
+        display: none;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    #bannerContainer {
+        padding: 70px 20px 120px 20px;
+        min-height: 340px !important;
+    }
+
+    ul#popout-products li,
+    ul#popout-books li {
+        flex: calc(100%/3) !important;
+        /* background-color: red; */
+        margin: 20px 20px 0 0 !important;
+    }
+
+    ul#popout-products li:nth-child(2n),
+    ul#popout-books li:nth-child(2n) {
+        margin: 20px 0 0 0 !important;
+    }
+
+    ul#popout-products li h3 {
+        font-size: 26px !important;
+    }
+
+    .banner-text {
+        padding: 0 !important;
+        margin: 0 !important;
+        /* background-color: #E21A23 !important; */
+        width: 100% !important;
+    }
+
+    .banner-text h1 {
+        margin-bottom: 20px !important;
+        font-size: 46px !important;
+        line-height: 50px !important;
+    }
+
+    .banner-img {
+        display: none !important;
+    }
+
+    .banner-text h2 {
+        margin-bottom: 0 !important;
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+
+    .banner-img {
+        display: none !important;
+    }
+
+    #bm {
+        display: none !important;
+    }
+
+    #bm-mobi {
+        display: block !important;
+    }
+
+    .breadcrumbs {
+        display: none !important;
+    }
+
+    #location-bar-wrapper {
+        display: none !important;
+    }
+
+    .block-search {
+        display: none !important;
+    }
+
+    .header {
+        margin: 20px auto auto auto !important;
+    }
+
+    .mobile-break {
+        display: none !important;
+    }
+}
+
+/* -------------------------------------- */
+/* Contact Us Section Styling */
+/* -------------------------------------- */
+
+#home-contact {
+    display: flex;
+}
+
+.contact-left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex: 1;
+    background-color: #0D2458;
+}
+
+.contact-right {
+    flex: 1;
+    background-color: #D8E4FB;
+
+}
+
+.contact-left-content {
+    flex: 1;
+    max-width: 530px;
+    /* background-color: aquamarine; */
+    margin: auto 60px auto auto;
+}
+
+.contact-left-content h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 60px;
+    line-height: 66px;
+    font-family: ProximaNova-Bold, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+}
+
+.contact-left-content h2 {
+    color: white;
+    font-family: ProximaNova-Light, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-size: 60px;
+    line-height: 66px;
+    margin: auto auto 10px auto;
+    padding: 0;
+}
+
+.contact-left-content p {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+}
+
+.contact-right-content {
+    width: 530px;
+    margin: 50px auto 50px 60px;
+    /* background-color: chocolate; */
+}
+
+.contact-right-content label {
+    display: none;
+}
+
+.contact-right-content input {
+    width: 100% !important;
+    height: 65px;
+    color: white;
+    margin: 0;
+    padding: 0 10px 0 10px !important;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: ProximaNova-Regular, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
+    font-weight: 1 !important;
+    font-size: 16px;
+}
+
+.contact-right-content form {
+    width: 100% !important;
+}
+
+.mktoFormRow {
+    width: 100% !important;
+    margin-top: 20px !important;
+    /*background:yellow !important;*/
+}
+
+.mktoForm .mktoFieldWrap {
+    width: 100% !important;
+}
+
+.mktoFormCol {
+    width: 100% !important;
+}
+
+.mktoOffset {
+    display: none !important;
+}
+
+.mktoGutter {
+    display: none !important;
+}
+
+.mktoButtonRow {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background-image: none !important;
+    height: 65px !important;
+    width: 200px !important;
+    background-color: #E21A23 !important;
+    border: none !important;
+    font-family: 'proxima_novabold', Arial, sans-serif !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+}
+
+.mktoFormCol {
+    margin-bottom: 0 !important;
+}
+
+span.mktoButtonWrap {
+    margin: 0 !important;
+}
+
+< !-- Animation Styling -->#bm {
+    width: 1180px;
+    height: 600px;
+    position: absolute;
+    left: 193px;
+    bottom: 111px;
+    scale: 1.47;
+    z-index: 1;
+    /* background-color: aqua; */
+}
+
+#bm-mobi {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: -20px;
+    bottom: -13px;
+    scale: 1.47;
+    z-index: 2;
+    display: none;
+    /* background-color: aqua; */
+}
